@@ -30,7 +30,9 @@ de hormigón afectadas por la **Reacción Álcali-Sílice (RAS)**. El modelo inc
 
 - **Expansión impuesta** por la RAS:
 
-  $$\boldsymbol{\varepsilon}_\text{RAS} = \xi\,\varepsilon_\text{RAS}^\infty\,[1,\,1,\,0]^\top$$
+$$
+\boldsymbol{\varepsilon}_\text{RAS} = \xi\,\varepsilon_\text{RAS}^\infty\,[1,\,1,\,0]^\top
+$$
 - **Daño de tracción** regularizado por energía de fractura (objetividad de malla).
 - **Degradación de propiedades** mecánicas (E, ft, fc, Gf) con el grado de reacción ξ.
 - **Dos casos de referencia validados**: viga entallada tipo RILEM y presa de gravedad.

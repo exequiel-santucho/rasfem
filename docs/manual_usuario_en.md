@@ -30,7 +30,9 @@ by the **Alkali-Silica Reaction (ASR)**. The model includes:
 
 - **Imposed ASR expansion**:
 
-  $$\boldsymbol{\varepsilon}_\text{ASR} = \xi\,\varepsilon_\text{ASR}^\infty\,[1,\,1,\,0]^\top$$
+$$
+\boldsymbol{\varepsilon}_\text{ASR} = \xi\,\varepsilon_\text{ASR}^\infty\,[1,\,1,\,0]^\top
+$$
 - **Fracture-energy-regularised tensile damage** (mesh-objective).
 - **Mechanical property degradation** (E, ft, fc, Gf) with reaction extent ξ.
 - **Two numerically validated reference cases**: notched RILEM beam and gravity dam.
