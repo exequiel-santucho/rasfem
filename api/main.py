@@ -42,14 +42,19 @@ def index():
     return FileResponse(WEB / "index.html")
 
 
+@app.get("/style.css")
+def stylecss():
+    return FileResponse(WEB / "style.css", media_type="text/css")
+
+
 @app.get("/app.js")
 def appjs():
-    return FileResponse(WEB / "app.js")
+    return FileResponse(WEB / "app.js", media_type="application/javascript")
 
 
 @app.get("/editor.js")
 def editorjs():
-    return FileResponse(WEB / "editor.js")
+    return FileResponse(WEB / "editor.js", media_type="application/javascript")
 
 
 @app.get("/api/example/{name}")
